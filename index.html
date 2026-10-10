@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#08080d" />
+  <meta name="description" content="Amit Kumar — Frontend Developer portfolio." />
+  <title>Amit Kumar | Frontend Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span>Amit Kumar</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle">
+      <span id="themeIcon">☼</span> <span id="themeLabel">Light Mode</span>
+    </button>
+  </header>
+
+  <main>
+    
+    <section class="hero section" id="home">
+
+      <div class="hero-left reveal">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Amit Kumar</h1>
+        <h2><span>Frontend</span> Developer</h2>
+
+        <p class="intro">
+          I build beautiful, responsive and user-friendly
+          web experiences using modern web technologies.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            View My Projects <span>↗</span>
+          </a>
+          <a href="#contact" class="text-link">Let's Connect ↗</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/amit-k07"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/in/amit-kumar-34925532a"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="LinkedIn">in</a>
+          <a href="mailto:amitkumargkp8303@gmail.com"
+             aria-label="Email">✉</a>
+        </div>
+      </div>
+
+      <div class="portrait-stage" id="portraitStage">
+        <div class="portrait-glow"></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <span class="orbit-dot dot-one"></span>
+        <span class="orbit-dot dot-two"></span>
+
+        <div class="portrait" id="portrait">
+          <img src="profile.png"
+               alt="Portrait of Amit Kumar"
+               fetchpriority="high" />
+        </div>
+
+        <span class="floating-label label-top">CREATIVE MIND ✦</span>
+      </div>
+
+      <aside class="hero-right reveal">
+        <p class="eyebrow">BUILDING FOR THE WEB</p>
+        <h3>Turning ideas into interactive and responsive websites.</h3>
+
+        <div class="tech-list">
+          <p><span>⌘</span> HTML <i>/</i> CSS <i>/</i> JavaScript</p>
+          <p><span>✧</span> Responsive Design</p>
+          <p><span>✳</span> Creative UI</p>
+        </div>
+
+        <p class="handwritten">Keep Building<span>...</span></p>
+      </aside>
+
+      <a href="#about" class="scroll-indicator">
+        <span class="scroll-line"></span>
+        SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <section class="content-section section" id="about">
+      <p class="eyebrow reveal">01 / ABOUT ME</p>
+      <h2 class="section-heading reveal">
+        I turn ideas into <span>digital experiences.</span>
+      </h2>
+      <p class="section-description reveal">
+        Hi, I'm Amit Kumar — a passionate Frontend Developer and MCA student who loves transforming ideas into beautiful digital experiences.
+I specialize in HTML, CSS, and JavaScript, creating modern, responsive, and interactive websites with clean design and smooth animations.
+I'm always learning, building, and pushing my creativity further to craft digital experiences that stand out.
+Turning ideas into interactive experiences.
+      </p>
+
+      <a href="resume.pdf" download="Amit-Kumar-Resume.pdf" class="btn-primary resume-btn reveal"> Download Resume <span>↓</span> </a>
+    </section>
+
+<section class="content-section section" id="education">
+
+  <p class="eyebrow reveal">02 / EDUCATION</p>
+
+  <h2 class="section-heading reveal">
+    My academic <span>background.</span>
+  </h2>
+
+  <div class="education-grid">
+
+    <article class="info-card reveal">
+      <span class="card-icon">🎓</span>
+
+      <span class="card-label">EDUCATION 01</span>
+
+      <h3>Master of Computer Applications (MCA)</h3>
+
+      <p class="institution">Buddha Institute of Management affiliated to AKTU</p>
+
+      <div class="card-meta">
+        <span>2024 – 2026</span>
+        <span>6.79 CGPA</span>
+      </div>
+    </article>
+
+    <article class="info-card reveal">
+      <span class="card-icon">🎓</span>
+
+      <span class="card-label">EDUCATION 02</span>
+
+      <h3>Bachelor of Science (B.Sc)</h3>
+
+      <p class="institution">Mahatma Gandhi PG College affiliated to DDUGU</p>
+
+      <div class="card-meta">
+        <span>2021-2024</span>
+        <span>5.94 CGPA</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="content-section section" id="certifications">
+
+  <p class="eyebrow reveal">03 / CERTIFICATIONS</p>
+
+  <h2 class="section-heading reveal">
+    Courses I've <span>completed.</span>
+  </h2>
+
+  <div class="certification-grid">
+
+    <article class="info-card reveal">
+      <span class="card-icon">🏆</span>
+
+      <span class="card-label">CERTIFICATE 01</span>
+
+      <h3>Front-end Web Development</h3>
+
+      <p class="institution">Reliance Foundation Skilling Academy</p>
+
+      <div class="card-meta">
+        <span>2026</span>
+      </div>
+
+      <a
+        href="frontend web development.pdf"
+        class="certificate-link"
+        target="_blank"
+        rel="noopener noreferrer">
+        View Certificate ↗
+      </a>
+    </article>
+
+    <article class="info-card reveal">
+      <span class="card-icon">💻</span>
+
+      <span class="card-label">CERTIFICATE 02</span>
+
+      <h3>Course on Computer Concepts (CCC)</h3>
+
+      <p class="institution">NIELIT</p>
+
+      <div class="card-meta">
+        <span>2022</span>
+      </div>
+
+      <a
+        href="ccc.pdf"
+        class="certificate-link"
+        target="_blank"
+        rel="noopener noreferrer">
+        View Certificate ↗
+      </a>
+    </article>
+
+  </div>
+</section>
+
+    <section class="content-section section" id="skills">
+      <p class="eyebrow reveal">04 / MY TOOLKIT</p>
+      <h2 class="section-heading reveal">Technologies I <span>work with.</span></h2>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal"><span>01</span><h3>HTML5</h3><p>Structure & accessibility</p></div>
+        <div class="skill-card reveal"><span>02</span><h3>CSS3</h3><p>Layouts & animations</p></div>
+        <div class="skill-card reveal"><span>03</span><h3>JavaScript</h3><p>Interactive experiences</p></div>
+        <div class="skill-card reveal"><span>04</span><h3>Responsive UI</h3><p>Mobile-first design</p></div>
+      </div>
+    </section>
+
+    <section class="content-section section" id="projects">
+      <p class="eyebrow reveal">05 / SELECTED WORK</p>
+      <h2 class="section-heading reveal">Things I've <span>built.</span></h2>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <span class="project-number">PROJECT 01</span>
+          <h3>Weather Checker</h3>
+          <p>A weather website for checking city conditions with a dynamic interface.</p>
+          <p class="project-stack">HTML · CSS · JavaScript · API</p>
+          <a href="https://amit-k07.github.io/weather_forecast/" target="_blank"
+             rel="noopener noreferrer">Explore project ↗</a>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="project-number">PROJECT 02</span>
+          <h3>Lenscraft Optical</h3>
+          <p>An optical website concept focused on product presentation and clean design.</p>
+          <p class="project-stack">HTML · CSS · JavaScript</p>
+          <a href="https://amit-k07.github.io/lenscraftoptical/" target="_blank"
+             rel="noopener noreferrer">Explore project ↗</a>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="project-number">PROJECT 03</span>
+          <h3>Vegasip</h3>
+          <p>A fruit drink brand website concept with vibrant product-focused visuals.</p>
+          <p class="project-stack">HTML · CSS · JavaScript</p>
+          <a href="https://amit-k07.github.io/vegasip/" target="_blank"
+             rel="noopener noreferrer">Explore project ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section contact-section section" id="contact">
+      <p class="eyebrow reveal">06 / GET IN TOUCH</p>
+      <h2 class="section-heading reveal">
+        Have an idea? <span>Let's build it.</span>
+      </h2>
+      <p class="section-description reveal">
+        I'm open to frontend developer and exciting projects.
+      </p>
+      <a class="btn-primary reveal"
+         href="mailto:amitkumargkp8303@gmail.com">Say Hello ↗</a>
+      <a class="github-footer" href="https://github.com/amit-k07"
+         target="_blank" rel="noopener noreferrer">
+        GitHub: amit-k07 ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Amit Kumar</span>
+    <span>DESIGNED WITH CURIOSITY ✦</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
